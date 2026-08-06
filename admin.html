@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Principal Dashboard</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f2f2f2;
+}
+
+h1{
+    text-align:center;
+}
+
+table{
+    width:70%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+th{
+    background:#1565c0;
+    color:white;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Principal Live Vote Count</h1>
+
+<table>
+
+<tr>
+<th>Contestant</th>
+<th>Votes</th>
+</tr>
+
+<tr>
+<td>Contestant 1</td>
+<td id="c1">0</td>
+</tr>
+
+<tr>
+<td>Contestant 2</td>
+<td id="c2">0</td>
+</tr>
+
+<tr>
+<td>Contestant 3</td>
+<td id="c3">0</td>
+</tr>
+
+<tr>
+<td>Contestant 4</td>
+<td id="c4">0</td>
+</tr>
+
+</table>
+
+<script type="module" src="./js/admin.js"></script>
+
+</body>
+</html>

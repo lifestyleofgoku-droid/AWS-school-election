@@ -12,22 +12,24 @@ const contestants = [
   {
     id: "c1",
     name: "Contestant 1",
-    image: "imagesa/candidte1.jpg"
+    image: "images/candidte1.jpg"
   },
   {
     id: "c2",
     name: "Contestant 2",
-    image: "images/candidate2.jpg"
+    image: "images/candidte2.jpg"
   },
   {
     id: "c3",
     name: "Contestant 3",
-    image: "images/candidate3.jpg"
+    image: "images/candidte3.jpg"
+    
   },
   {
     id: "c4",
     name: "Contestant 4",
-    image: "images/candidate4.jpg"
+    image: "images/candidte1.jpg"
+    
   }
 ];
 

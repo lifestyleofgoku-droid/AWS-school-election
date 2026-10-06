@@ -25,10 +25,10 @@ const contestants = [
     image: "images/candidte3.jpg"
     
   },
- {
+{
   id: "c4",
   name: "Contestant 4",
-  image: "images/candidte1.jpg"
+  image: "images/candidte4.jpg"
 }
 ];
 

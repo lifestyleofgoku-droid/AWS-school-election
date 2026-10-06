@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>School Leader Election</title>
+    <title>Arunachala World School Election</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>🏫 School Leader Election</h1>
-    <p>Select your leader by tapping one candidate.</p>
-</header>
+    <!-- SCHOOL HEADER -->
+    <header>
 
-<div id="candidateContainer">
-    <!-- Candidates will appear automatically -->
-</div>
+        <img src="./images/arunachala-logo.png"
+             alt="Arunachala World School CSE">
 
-<div id="message"></div>
+        <h1>ARUNACHALA WORLD SCHOOL</h1>
 
-<script type="module" src="js/firebase-config.js"></script>
-<script type="module" src="js/script.js"></script>
+        <p>CSE SCHOOL LEADER ELECTION</p>
+
+    </header>
+
+
+    <!-- INSTRUCTIONS -->
+    <div style="
+        text-align:center;
+        margin:25px 15px 10px;
+        color:#555;
+        font-size:17px;
+    ">
+        Select your leader by tapping one candidate.
+    </div>
+
+
+    <!-- CANDIDATES -->
+    <div id="candidateContainer">
+        <!-- Candidates will appear automatically -->
+    </div>
+
+
+    <!-- MESSAGE -->
+    <div id="message"></div>
+
+
+    <!-- FIREBASE -->
+    <script type="module" src="./js/firebase-config.js"></script>
+
+    <!-- MAIN SCRIPT -->
+    <script type="module" src="./js/script.js"></script>
 
 </body>
+
 </html>
